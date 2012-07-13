@@ -15,6 +15,8 @@ To use simple-dnd:
 - create a Dnd instance supplying the name of the classes that are draggable and cursor styles for hovering and dragging.
 - assign the mouse events to the Dnd mouse events
 
+Here is an example of the javascript code that you would put in the header of a web page in order to drag and drop elements where there class is "widget"
+
 ```javascript
 	//className of element to be dragged
 	//cursor style when hovering
