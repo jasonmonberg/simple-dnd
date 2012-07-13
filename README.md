@@ -15,7 +15,7 @@ To use simple-dnd:
 - create a Dnd instance supplying the name of the classes that are draggable and cursor styles for hovering and dragging.
 - assign the mouse events to the Dnd mouse events
 
-'''javascript
+```javascript
 	//className of element to be dragged
 	//cursor style when hovering
 	//cursor style when dragging
@@ -26,4 +26,4 @@ To use simple-dnd:
 	document.onmousedown = 	dnd.OnMouseDown;
 	document.onmouseup = 	dnd.OnMouseUp;
 	document.onmouseout = 	dnd.OnMouseOut;
-'''
+```
