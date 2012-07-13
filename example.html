@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="border-style:solid; border-color:#000000; border-width:0px;padding:0px;margin:0px;">
+
+<head>
+
+<script type="text/javascript" src="dnd.js"></script>
+<script type="text/javascript">
+	//className of element to be dragged
+	//cursor style when hovering
+	//cursor style when dragging
+	var dnd = new Dnd("widget", "move", "move");
+	
+	//bind events
+	document.onmouseover = 	dnd.OnMouseOver;
+	document.onmousedown = 	dnd.OnMouseDown;
+	document.onmouseup = 	dnd.OnMouseUp;
+	document.onmouseout = 	dnd.OnMouseOut;
+</script>
+
+</head>
+
+<body style="border-style:solid; border-color:#000000; border-width:0px;padding:0px;margin:0px;">
+
+<!--- creates a div container for absolutely positioned content -->
+<div style="width:100%;height:100%;border-style:solid; border-color:#000000; border-width:0px;position:relative;left:0px;top:0px;">
+
+	<h2 class="widget" style="border-style:solid; border-color:#000000; border-width:0px; margin:0px; position:absolute;left:0px;top:0px;">
+		DRAG ME!
+	</h2>
+	<h2  class="widget" style="margin:0px;position:absolute;left:100px;top:150px;">
+		DRAG ME TOO!
+	</h2>
+</div>
+
+
+
+<body>
+
+</html>
